@@ -1,0 +1,30 @@
+<apex:component >
+	<apex:stylesheet value="{!$Resource.PageScrollTopButtonCss}"/>
+	<p id="page-top">
+		<a href="#wrap">
+			<apex:outputText value="▲" />
+		</a>
+	</p>
+	<script>
+		var j$ =jQuery.noConflict();
+		j$(function() {
+			var topBtn = j$('#page-top');
+			topBtn.hide();
+			//スクロールが指定位置に達したらボタン表示
+			j$(window).scroll(function () {
+				if (j$(document).scrollTop() >= j$(document).height() / 2) {
+					topBtn.fadeIn();
+				} else {
+					topBtn.fadeOut();
+				}
+			});
+			//スクロールしてトップ
+		    topBtn.click(function () {
+				j$('body,html').animate({
+					scrollTop: 0
+				}, 500);
+				return false;
+		    });
+		});
+	</script>
+</apex:component>

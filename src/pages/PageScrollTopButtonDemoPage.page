@@ -1,0 +1,16 @@
+<apex:page Controller="PageScrollTopButtonDemoController" title="PageScrollTopButtonDemoPage" showHeader="true" sidebar="false" id="page">
+	<apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" />
+	<style>
+		.demo {
+	        height:4000px;
+	        background-color:#4169E1;
+	        border-radius: 5px;
+	        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+	    }
+	</style>
+	<apex:form id="form">
+		<c:PageScrollTopButton />
+		<div class="demo">
+		</div>
+	</apex:form>
+</apex:page>
