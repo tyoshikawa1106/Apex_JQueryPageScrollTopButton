@@ -1,22 +1,17 @@
-/*
+/**
  * JQueryScrollTopDemo
  * © 2013 Force.com Developer
  * ----------------------------------------
- * @createdDate      : 2013/01/01
- * @createdName      : TAIKI,YOSHIKAWA
- * ----------------------------------------
- * @lastModifiedDate : 2013/01/01
- * @lastModifiedName : TAIKI,YOSHIKAWA
+ * @createdName      : Taiki,Yoshikawa
+ * @lastModifiedName : Taiki,Yoshikawa
  * ----------------------------------------
  */
 public with sharing class PageScrollTopButtonDemoController {
-	
-	/*
-	 * コンストラクタ
-	 * @param	: なし
-	 * @return	: なし
-	 */
-	public PageScrollTopButtonDemoController() {
-		
-	}
+    
+    /**
+     * コンストラクタ
+     */
+    public PageScrollTopButtonDemoController() {
+        
+    }
 }
