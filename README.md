@@ -1,4 +1,4 @@
-Apex_IsJQuery_PageScrollTopButton
+Apex_JQueryPageScrollTopButton
 =================================
 
 JQueryを使ったページトップまでスクロールするボタンのサンプルコードです。  
